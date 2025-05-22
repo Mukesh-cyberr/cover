@@ -31,96 +31,88 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-```
-<html>
+
+      <html>
 <head>
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
-    <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .bookpage {
+        width: 400px;
+        height: 600px;
+        color: rgb(0, 0, 0);
+        margin: auto;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url("C:\\Users\\mukes\\OneDrive\\Desktop\\54587.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-        .bookpage{
-            width: 400px;
-            height: 600px;
-            color: gainsboro;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-image: url("C:\\college\\web\\bg.jpeg");
-            background-size: cover;
-        }
+    .insight {
+        color: rgb(255, 166, 0);
+    }
 
-        .insight{
-            color: rgb(247, 162, 5);
-        }
+    .hrstyle {
+        width: 100px;
+    }
 
-        .hrstyle{
-            width: 100px;
-        }
+    .author {
+        color: rgb(20, 20, 19);
+        font-size: small;
+        text-align: center;
+        margin-top: 150px;
+    }
 
-        .author{
-            display: inline;
-            position: relative;
-            color: rgb(223, 226, 220);
-            top: 230px;
+    .booktitle {
+        font-size: larger;
+        text-align: center;
+        margin-top: 30px;
+    }
 
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: small;
-        }
+    .id {
+        width: 100%;
+        margin-top: 80px;
+    }
 
-        .booktitle{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: larger;
-            text-align: center;
-            position: relative;
-            top: 30px;
-        }
+    .pub {
+        font-size: medium;
+        text-align: right;
+        margin-top: 30px;
+    }
 
-        .id{
-            width: 400px;
-            position: relative;
-            top: 100px;
-        }
+    .ed {
+        color: rgb(17, 21, 13);
+        font-size: medium;
+        text-align: center;
+        margin-top: 50px;
+    }
 
-        .pub{
-            font-size: medium;
-            position: relative;
-            top: 230px;
-            left: 315px;
-        }
+    .subtitle {
+        font-size: large;
+        text-align: center;
+        margin-top: 10px;
+    }
 
-        .ed{
-            color:  rgb(223, 226, 220);
-            font-size: medium;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            position: relative;
-            top: 150px;
+    .mypic {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 100px;
+        height: 100px;
+        background-image: url('author.jpg'); /* Update with your image */
+        background-size: cover;
+        border-radius: 50%;
+    }
+</style>
 
-        }
-
-        .subtitle{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: large;
-            position: relative;
-            top: 40px;
-        }
-
-        .mypic{
-            position: relative;
-            top: 230px;
-            left: 260px;
-            width: 100px;
-            height: 100px;
-            background-size: cover;
-
-        }
-    </style>
     <title>BOOK COVER</title>
 </head>
 <body>
     <div class="bookpage">
         <div class="insight"> INSIGHT</div>
         <div class="hrstyle">
-            <hr style="color: white">
+            <hr style="color: rgb(18, 17, 17)">
         </div>
         <div class="booktitle">
          <h1>"The Grace of Waiting"
@@ -131,14 +123,12 @@ Publish the website in the LocalHost.
                 Moments That Shape the Soul
             </center>
         </div>
-        <div class="mypic">
-            <img src="nishanth.png" width="125" height="140" alt="">
-        </div>
+       
         <div class="id">
-            <hr style="color: wheat">
+            <hr style="color: rgb(154, 114, 40)">
         </div>
         <div class="author">
-            <p><b> Nitheesh Kumar B (212224230189)</b></p>
+            <p><b> MUKESH RAJ D (212224100038)</b></p>
         </div>
         <div class="pub">
             
@@ -150,6 +140,7 @@ Publish the website in the LocalHost.
 </body>
 
 </html>
+       
 
 ```
 
