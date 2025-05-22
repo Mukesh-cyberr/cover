@@ -31,7 +31,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-
+```
       <html>
 <head>
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
@@ -145,7 +145,7 @@ Publish the website in the LocalHost.
 ```
 
 ## OUTPUT:
-![alt text](<maha/Screenshot 2025-05-22 084022.png>)
+![alt text](<Screenshot 2025-05-22 091723.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
